@@ -1,0 +1,10 @@
+pip install psycopg2-binary
+myShopee\Scripts\activate.bat
+(py -m pip install Django)
+(django-admin startproject my_tennis_club) -- tao project lon - thu muc goc 
+(django-admin startapp app) -- tao con cua project lon (can dang ki vo project lon)
+python manage.py makemigrations -- chuyen khai bao thanh query , cap nhat su thay doi lien quán den model de apply val dâtbase
+python manage.py migrate -- cau hình lại những gì đã làm (cap nhat query da apply  )
+
+python manage.py createsuperuser
+py manage.py runserver -- runserver
